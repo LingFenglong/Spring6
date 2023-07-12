@@ -4,41 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28e412ad-d321-4087-9660-31bc80e7a3e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/bean/Eat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/bean/TestUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/di/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/di/TestBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/dimap/Lesson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/dimap/Stu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/dimap/Tea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/dimap/TestStuTea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/diobj/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/diobj/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/diobj/TestDeptEmp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/resources/bean-di-array.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/resources/bean-di-list.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/resources/bean-di-map.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/resources/bean-di-obj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/resources/bean-di-ref.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/resources/bean-di.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-first/src/main/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="28e412ad-d321-4087-9660-31bc80e7a3e6" name="Changes" comment="all">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-first/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-first/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-first/src/main/java/com/lingfenglong/entity/TestUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-first/src/main/java/com/lingfenglong/entity/TestUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,12 +178,25 @@
       <workItem from="1689080456462" duration="1777000" />
       <workItem from="1689129596165" duration="328000" />
       <workItem from="1689129939986" duration="5317000" />
-      <workItem from="1689147392744" duration="6793000" />
+      <workItem from="1689147392744" duration="7732000" />
     </task>
+    <task id="LOCAL-00001" summary="all">
+      <option name="closed" value="true" />
+      <created>1689154625555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689154625555</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="all" />
+    <option name="LAST_COMMIT_MESSAGE" value="all" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

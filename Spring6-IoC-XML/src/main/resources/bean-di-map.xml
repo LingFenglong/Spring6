@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="stu" class="com.lingfenglong.iocxml.dimap.Stu">
+        <property name="name" value="zhansan"/>
+        <property name="id" value="10086"/>
+        <property name="teaMap">
+            <map>
+                <entry key="tea1" value-ref="tea1"/>
+                <entry key="tea2" value-ref="tea2"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="tea1" class="com.lingfenglong.iocxml.dimap.Tea">
+        <property name="name" value="lisi"/>
+        <property name="id" value="1"/>
+    </bean>
+
+    <bean id="tea2" class="com.lingfenglong.iocxml.dimap.Tea">
+        <property name="name" value="wangwu"/>
+        <property name="id" value="2"/>
+    </bean>
+
+</beans>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="dept" class="com.lingfenglong.iocxml.diobj.Dept">
+        <property name="name" value="安保部"/>
+        <property name="empList">
+            <list>
+                <ref bean="emp1"/>
+                <ref bean="emp2"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean name="emp1" class="com.lingfenglong.iocxml.diobj.Emp">
+        <property name="name" value="zhangsan"/>
+        <property name="age" value="18"/>
+        <property name="dept" ref="dept"/>
+    </bean>
+
+    <bean name="emp2" class="com.lingfenglong.iocxml.diobj.Emp">
+        <property name="name" value="lisi"/>
+        <property name="age" value="19"/>
+        <property name="dept" ref="dept"/>
+    </bean>
+    
+</beans>

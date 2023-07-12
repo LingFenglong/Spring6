@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="book1" class="com.lingfenglong.iocxml.di.Book">
+        <property name="name" value="html"/>
+        <property name="author" value="lisi"/>
+        <property name="price" value="9.99"/>
+    </bean>
+
+    <bean id="book2" class="com.lingfenglong.iocxml.di.Book">
+        <constructor-arg name="name" value="java"/>
+        <constructor-arg name="author" value="zhangsan"/>
+        <constructor-arg name="price">
+            <null/>
+        </constructor-arg>
+    </bean>
+
+    <bean id="book3" class="com.lingfenglong.iocxml.di.Book">
+        <property name="name" value="&lt;html&gt;"/>
+        <property name="author" value="wangwu"/>
+        <property name="price" value="19.99"/>
+    </bean>
+
+    <bean id="book4" class="com.lingfenglong.iocxml.di.Book">
+        <property name="name" value="&lt;html&gt;"/>
+        <property name="author">
+            <value><![CDATA[a < c]]></value>
+        </property>
+        <property name="price" value="39.99"/>
+    </bean>
+</beans>

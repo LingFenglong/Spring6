@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    外部bean-->
+    <bean name="dept" class="com.lingfenglong.iocxml.diobj.Dept">
+        <property name="name" value="安保部"/>
+    </bean>
+
+    <bean name="emp" class="com.lingfenglong.iocxml.diobj.Emp">
+        <property name="name" value="zhangsan"/>
+        <property name="age" value="18"/>
+        <property name="dept" ref="dept"/>
+    </bean>
+
+<!--    内部bean-->
+    <bean id="emp2" class="com.lingfenglong.iocxml.diobj.Emp">
+        <property name="name" value="lisi"/>
+        <property name="age" value="20"/>
+        <property name="dept">
+            <bean name="dept" class="com.lingfenglong.iocxml.diobj.Dept">
+                <property name="name" value="后勤部"/>
+            </bean>
+        </property>
+    </bean>
+
+<!--    级联赋值-->
+    <bean id="dept3" class="com.lingfenglong.iocxml.diobj.Dept">
+        <property name="name" value="技术部"/>
+    </bean>
+    <bean name="emp3" class="com.lingfenglong.iocxml.diobj.Emp">
+        <property name="name" value="wangwu"/>
+        <property name="age" value="18"/>
+        <property name="dept" ref="dept3"/>
+        <property name="dept.name" value="测试部"/>
+    </bean>
+</beans>

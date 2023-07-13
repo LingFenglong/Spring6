@@ -7,8 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-first" />
+        <module name="Spring6-IoC-Annotation" />
+        <module name="My-Spring" />
+        <module name="Spring-First" />
+        <module name="Spring6-AOP" />
         <module name="Spring6-IoC-XML" />
+        <module name="Spring6-Reflect" />
       </profile>
     </annotationProcessing>
   </component>

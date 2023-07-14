@@ -5,83 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28e412ad-d321-4087-9660-31bc80e7a3e6" name="Changes" comment="all">
-      <change afterPath="$PROJECT_DIR$/My-Spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My-Spring/src/main/java/com/lingfenglong/annotation/Bean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My-Spring/src/main/java/com/lingfenglong/annotation/Di.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My-Spring/src/main/java/com/lingfenglong/bean/AnnotationApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My-Spring/src/main/java/com/lingfenglong/bean/ApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My-Spring/src/main/java/com/lingfenglong/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My-Spring/src/main/java/com/lingfenglong/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My-Spring/src/main/java/com/lingfenglong/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My-Spring/src/main/java/com/lingfenglong/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My-Spring/src/main/java/com/lingfenglong/test/TestMySpring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-AOP/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-AOP/src/main/java/com/lingfenglong/spring6/annotationaop/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-AOP/src/main/java/com/lingfenglong/spring6/annotationaop/CalculatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-AOP/src/main/java/com/lingfenglong/spring6/annotationaop/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-AOP/src/main/java/com/lingfenglong/spring6/annotationaop/TestAOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-AOP/src/main/java/com/lingfenglong/spring6/example/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-AOP/src/main/java/com/lingfenglong/spring6/example/CalculatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-AOP/src/main/java/com/lingfenglong/spring6/example/ProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-AOP/src/main/java/com/lingfenglong/spring6/example/TestProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-AOP/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-AOP/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java/com/lingfenglong/spring6/autowired/UserDao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java/com/lingfenglong/spring6/autowired/UserDao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java/com/lingfenglong/spring6/autowired/UserDao/UserRedisDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java/com/lingfenglong/spring6/autowired/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java/com/lingfenglong/spring6/autowired/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java/com/lingfenglong/spring6/autowired/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java/com/lingfenglong/spring6/autowired/test/TestAutowired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java/com/lingfenglong/spring6/bean/TestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java/com/lingfenglong/spring6/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java/com/lingfenglong/spring6/resource/UserDao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java/com/lingfenglong/spring6/resource/UserDao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java/com/lingfenglong/spring6/resource/UserDao/UserRedisDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java/com/lingfenglong/spring6/resource/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java/com/lingfenglong/spring6/resource/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java/com/lingfenglong/spring6/resource/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java/com/lingfenglong/spring6/resource/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java/com/lingfenglong/spring6/resource/test/TestAutowired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/auto/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/auto/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/auto/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/auto/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/auto/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/auto/test/TestAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/dijdbc/TestJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/factorybean/MyFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/factorybean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/lifecircle/MyBeanPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/lifecircle/TestFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/lifecircle/TestLifeCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/lifecircle/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/scope/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/scope/TestOrders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/resources/bean-auto.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/resources/bean-factorybean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/resources/bean-jdbc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/resources/bean-lifecircle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/resources/bean-scope.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-Reflect/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-Reflect/src/main/java/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-AOP/src/main/java/com/lingfenglong/spring6/xmlaop/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-AOP/src/main/java/com/lingfenglong/spring6/xmlaop/CalculatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-AOP/src/main/java/com/lingfenglong/spring6/xmlaop/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-AOP/src/main/java/com/lingfenglong/spring6/xmlaop/TestAOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-AOP/src/main/resources/bean-aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/jdbc/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/jdbc/TestJdbcTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Junit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Junit/src/main/java/com/lingfenglong/spring6/junit/junit4/TestSpringJunit4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Junit/src/main/java/com/lingfenglong/spring6/junit/junit5/TestSpringJunit5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Junit/src/main/java/com/lingfenglong/spring6/junit/junit5/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Junit/src/main/resources/bean.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring6-IoC-XML/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring6-IoC-XML/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/dimap/TestStuTea.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/java/com/lingfenglong/iocxml/dimap/TestStuTea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/resources/bean-di-ref.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring6-IoC-XML/src/main/resources/bean-di-ref.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring6-AOP/src/main/java/com/lingfenglong/spring6/annotationaop/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring6-AOP/src/main/java/com/lingfenglong/spring6/annotationaop/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring6-AOP/src/main/java/com/lingfenglong/spring6/annotationaop/TestAOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring6-AOP/src/main/java/com/lingfenglong/spring6/annotationaop/TestAOP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-first/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-First/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-first/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-First/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-first/src/main/java/com/lingfenglong/entity/TestUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-First/src/main/java/com/lingfenglong/entity/TestUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-first/src/main/java/com/lingfenglong/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-First/src/main/java/com/lingfenglong/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-first/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-First/src/main/resources/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-first/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-First/src/main/resources/log4j2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +68,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "JDK19",
-    "last_opened_file_path": "D:/git/Spring-Learning/Spring6/Spring6-AOP/src/main/java/com/lingfenglong/spring6/annotationaop",
+    "last_opened_file_path": "D:/git/Spring-Learning/Spring6/Spring6-AOP/src/main/java/com/lingfenglong/spring6/xmlaop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -133,83 +77,98 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "5fa760bab7d101c13d43a041be57cd0c",
+    "spring.configuration.checksum": "48e80edc28b61841a899fe10f2a0d1b2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\Spring-Learning\Spring6\Spring6-AOP\src\main\java\com\lingfenglong\spring6\xmlaop" />
       <recent name="D:\git\Spring-Learning\Spring6\Spring6-AOP\src\main\java\com\lingfenglong\spring6\annotationaop" />
       <recent name="D:\git\Spring-Learning\Spring6\Spring6-AOP\src\main\resources" />
       <recent name="D:\git\Spring-Learning\Spring6\Spring6-IoC-Annotation\src\main\java\com\lingfenglong\spring6\resource" />
       <recent name="D:\git\Spring-Learning\Spring6\Spring6-IoC-Annotation\src\main\resources" />
-      <recent name="D:\git\Spring-Learning\Spring6\Spring6-IoC-XML\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lingfenglong.spring6.xmlaop" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAOP.testAOP">
-    <configuration name="AnnotationApplicationContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.bean.AnnotationApplicationContext" />
-      <module name="My-Spring" />
+  <component name="RunManager" selected="JUnit.TestJdbcTemplate.testSelectValue">
+    <configuration name="TestJdbcTemplate.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-JDBC-TX" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lingfenglong.bean.*" />
+          <option name="PATTERN" value="com.lingfenglong.spring6.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Car" />
-      <module name="Spring6-Reflect" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAOP.testAOP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring6-AOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lingfenglong.spring6.annotationaop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.annotationaop" />
-      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.annotationaop.TestAOP" />
-      <option name="METHOD_NAME" value="testAOP" />
+      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.jdbc.TestJdbcTemplate" />
+      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMySpring.testBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="My-Spring" />
+    <configuration name="TestJdbcTemplate.testSelectList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-JDBC-TX" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lingfenglong.test.*" />
+          <option name="PATTERN" value="com.lingfenglong.spring6.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lingfenglong.test" />
-      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.test.TestMySpring" />
-      <option name="METHOD_NAME" value="testBean" />
+      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.jdbc.TestJdbcTemplate" />
+      <option name="METHOD_NAME" value="testSelectList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProxyFactory.testProxyFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring6-AOP" />
+    <configuration name="TestJdbcTemplate.testSelectObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-JDBC-TX" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lingfenglong.spring6.example.*" />
+          <option name="PATTERN" value="com.lingfenglong.spring6.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.example" />
-      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.example.TestProxyFactory" />
-      <option name="METHOD_NAME" value="testProxyFactory" />
+      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.jdbc.TestJdbcTemplate" />
+      <option name="METHOD_NAME" value="testSelectObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJdbcTemplate.testSelectValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-JDBC-TX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lingfenglong.spring6.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.jdbc.TestJdbcTemplate" />
+      <option name="METHOD_NAME" value="testSelectValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJdbcTemplate.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-JDBC-TX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lingfenglong.spring6.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.jdbc.TestJdbcTemplate" />
+      <option name="METHOD_NAME" value="testUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -228,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestAOP.testAOP" />
-        <item itemvalue="JUnit.TestProxyFactory.testProxyFactory" />
-        <item itemvalue="JUnit.TestMySpring.testBean" />
-        <item itemvalue="Application.AnnotationApplicationContext" />
-        <item itemvalue="Application.Car" />
+        <item itemvalue="JUnit.TestJdbcTemplate.testSelectValue" />
+        <item itemvalue="JUnit.TestJdbcTemplate.testSelectList" />
+        <item itemvalue="JUnit.TestJdbcTemplate.testInsert" />
+        <item itemvalue="JUnit.TestJdbcTemplate.testSelectObject" />
+        <item itemvalue="JUnit.TestJdbcTemplate.testUpdate" />
       </list>
     </recent_temporary>
   </component>
@@ -251,6 +210,8 @@
       <workItem from="1689157887673" duration="196000" />
       <workItem from="1689166795566" duration="4394000" />
       <workItem from="1689216249383" duration="28521000" />
+      <workItem from="1689258444769" duration="199000" />
+      <workItem from="1689297855520" duration="5562000" />
     </task>
     <task id="LOCAL-00001" summary="all">
       <option name="closed" value="true" />
@@ -260,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689154625555</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="all">
+      <option name="closed" value="true" />
+      <created>1689258493700</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689258493700</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

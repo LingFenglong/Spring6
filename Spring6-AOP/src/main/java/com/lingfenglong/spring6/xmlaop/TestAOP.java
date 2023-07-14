@@ -1,5 +1,6 @@
-package com.lingfenglong.spring6.annotationaop;
+package com.lingfenglong.spring6.xmlaop;
 
+import com.lingfenglong.spring6.xmlaop.Calculator;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -7,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class TestAOP {
     @Test
     public void testAOP() {
-        ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean-aop.xml");
         Calculator calculator = context.getBean("calculator", Calculator.class);
         int res = calculator.add(2, 17);
         System.out.println(res);

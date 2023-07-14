@@ -1,9 +1,8 @@
-package com.lingfenglong.spring6.annotationaop;
+package com.lingfenglong.spring6.xmlaop;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
-import org.junit.jupiter.api.Order;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
@@ -20,27 +19,22 @@ public class LogAspect {
         @Around()
      */
 
-    @Before("pointcut()")
     public void beforeMethod(JoinPoint joinPoint) {
         System.out.println("Logger 前置通知  " + joinPoint.getSignature().getName() + Arrays.toString(joinPoint.getArgs()));
     }
 
-    @After("com.lingfenglong.spring6.annotationaop.LogAspect.pointcut()")
     public void afterMethod(JoinPoint joinPoint) {
         System.out.println("Logger 后置通知  " + joinPoint.getSignature().getName());
     }
 
-    @AfterReturning(value = "execution(* com.lingfenglong.spring6.annotationaop.CalculatorImpl.*(..))", returning = "res")
     public void afterReturningMethod(JoinPoint joinPoint, Object res) {
         System.out.println("Logger 返回通知  " + joinPoint.getSignature().getName() + " " + "returned => " + res);
     }
 
-    @AfterThrowing(value = "execution(* com.lingfenglong.spring6.annotationaop.CalculatorImpl.*(..))", throwing = "throwable")
     public void afterThrowingMethod(JoinPoint joinPoint, Throwable throwable) {
         System.out.println("Logger 异常通知  " + joinPoint.getSignature().getName() + " " + "throws => " + throwable);
     }
 
-    @Around("execution(* com.lingfenglong.spring6.annotationaop.CalculatorImpl.*(..))")
     public Object afterAroundMethod(ProceedingJoinPoint proceedingJoinPoint) {
         Object res = null;
         try {

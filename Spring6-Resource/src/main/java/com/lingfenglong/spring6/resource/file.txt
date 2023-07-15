@@ -1,0 +1,2 @@
+Hello world!
+path: D:\git\Spring-Learning\Spring6\Spring6-Resource\src\main\java\com\lingfenglong\spring6\resourcedemo\file.txt

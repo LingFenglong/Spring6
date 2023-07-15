@@ -5,19 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28e412ad-d321-4087-9660-31bc80e7a3e6" name="Changes" comment="all">
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/tx/TestTx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/tx/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/tx/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/tx/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/tx/dao/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/tx/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/tx/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/tx/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/tx/service/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/tx/service/CheckoutService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/tx/service/CheckoutServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/xmltx/TestTx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/xmltx/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/xmltx/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/xmltx/dao/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/xmltx/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/xmltx/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/xmltx/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/xmltx/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/resources/beans-xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Resource/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/java/com/lingfenglong/spring6/di/ResourceBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/java/com/lingfenglong/spring6/di/TestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/java/com/lingfenglong/spring6/prefix/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/java/com/lingfenglong/spring6/resource/TestResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/java/com/lingfenglong/spring6/resource/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/java/com/lingfenglong/spring6/resourceloader/TestResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/java/com/lingfenglong/spring6/resourceloaderaware/TestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/java/com/lingfenglong/spring6/resourceloaderaware/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/resources/resourceFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-i18n/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-i18n/src/main/java/com/lingfenglong/javai18n/DemoI18n.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-i18n/src/main/java/com/lingfenglong/springi18n/DemoI18n.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-i18n/src/main/resources/i18n.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-i18n/src/main/resources/javai18n_en_GB.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-i18n/src/main/resources/javai18n_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-i18n/src/main/resources/springi18n_en_GB.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-i18n/src/main/resources/springi18n_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-i18n/src/test/java/com/lingfenglong/javai18n/DemoI18nTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +49,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -52,115 +74,124 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;JDK19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/git/Spring-Learning/Spring6/Spring6-AOP/src/main/java/com/lingfenglong/spring6/xmlaop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;fab94ec2d057036da6548b99e8116fe7&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "JDK19",
+    "last_opened_file_path": "D:/git/Spring-Learning/Spring6/Spring6-i18n/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "fab94ec2d057036da6548b99e8116fe7",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\Spring-Learning\Spring6\Spring6-i18n\src\main\resources" />
+      <recent name="D:\git\Spring-Learning\Spring6\Spring6-Resource\src\main\resources" />
+      <recent name="D:\git\Spring-Learning\Spring6\Spring6-JDBC-TX\src\main\java\com\lingfenglong\spring6\xmltx" />
       <recent name="D:\git\Spring-Learning\Spring6\Spring6-AOP\src\main\java\com\lingfenglong\spring6\xmlaop" />
       <recent name="D:\git\Spring-Learning\Spring6\Spring6-AOP\src\main\java\com\lingfenglong\spring6\annotationaop" />
-      <recent name="D:\git\Spring-Learning\Spring6\Spring6-AOP\src\main\resources" />
-      <recent name="D:\git\Spring-Learning\Spring6\Spring6-IoC-Annotation\src\main\java\com\lingfenglong\spring6\resource" />
-      <recent name="D:\git\Spring-Learning\Spring6\Spring6-IoC-Annotation\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.lingfenglong.javai18n" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lingfenglong.springi18n" />
       <recent name="com.lingfenglong.spring6.xmlaop" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestTx.testTx">
-    <configuration name="TestJdbcTemplate.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring6-JDBC-TX" />
+  <component name="RunManager" selected="JUnit.DemoI18n.demoI18n (1)">
+    <configuration name="DemoI18n.demoI18n (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-i18n" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lingfenglong.spring6.jdbc.*" />
+          <option name="PATTERN" value="com.lingfenglong.springi18n.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.jdbc.TestJdbcTemplate" />
-      <option name="METHOD_NAME" value="testInsert" />
+      <option name="PACKAGE_NAME" value="com.lingfenglong.springi18n" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.springi18n.DemoI18n" />
+      <option name="METHOD_NAME" value="demoI18n" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJdbcTemplate.testSelectList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring6-JDBC-TX" />
+    <configuration name="DemoI18n.demoI18n" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-i18n" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lingfenglong.spring6.jdbc.*" />
+          <option name="PATTERN" value="com.lingfenglong.javai18n.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.jdbc.TestJdbcTemplate" />
-      <option name="METHOD_NAME" value="testSelectList" />
+      <option name="PACKAGE_NAME" value="com.lingfenglong.javai18n" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.javai18n.DemoI18n" />
+      <option name="METHOD_NAME" value="demoI18n" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJdbcTemplate.testSelectObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring6-JDBC-TX" />
+    <configuration name="TestBean.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-Resource" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lingfenglong.spring6.jdbc.*" />
+          <option name="PATTERN" value="com.lingfenglong.spring6.di.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.jdbc.TestJdbcTemplate" />
-      <option name="METHOD_NAME" value="testSelectObject" />
+      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.di" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.di.TestBean" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJdbcTemplate.testSelectValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring6-JDBC-TX" />
+    <configuration name="TestDemo.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-Resource" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lingfenglong.spring6.jdbc.*" />
+          <option name="PATTERN" value="com.lingfenglong.spring6.resourceloaderaware.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.jdbc.TestJdbcTemplate" />
-      <option name="METHOD_NAME" value="testSelectValue" />
+      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.resourceloaderaware" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.resourceloaderaware.TestDemo" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTx.testTx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring6-JDBC-TX" />
+    <configuration name="TestResourceLoader.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-Resource" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lingfenglong.spring6.tx.*" />
+          <option name="PATTERN" value="com.lingfenglong.spring6.resourceloader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.tx" />
-      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.tx.TestTx" />
-      <option name="METHOD_NAME" value="testTx" />
+      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.resourceloader" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.resourceloader.TestResourceLoader" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestTx.testTx" />
-        <item itemvalue="JUnit.TestJdbcTemplate.testSelectValue" />
-        <item itemvalue="JUnit.TestJdbcTemplate.testSelectList" />
-        <item itemvalue="JUnit.TestJdbcTemplate.testInsert" />
-        <item itemvalue="JUnit.TestJdbcTemplate.testSelectObject" />
+        <item itemvalue="JUnit.DemoI18n.demoI18n (1)" />
+        <item itemvalue="JUnit.DemoI18n.demoI18n" />
+        <item itemvalue="JUnit.TestBean.test" />
+        <item itemvalue="JUnit.TestDemo.test01" />
+        <item itemvalue="JUnit.TestResourceLoader.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +238,7 @@
       <workItem from="1689318834477" duration="1253000" />
       <workItem from="1689332541216" duration="1707000" />
       <workItem from="1689385221549" duration="4015000" />
-      <workItem from="1689421239364" duration="3524000" />
+      <workItem from="1689421239364" duration="12231000" />
     </task>
     <task id="LOCAL-00001" summary="all">
       <option name="closed" value="true" />
@@ -233,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689303505977</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="all">
+      <option name="closed" value="true" />
+      <created>1689426422461</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689426422461</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,5 +302,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

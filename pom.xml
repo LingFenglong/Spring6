@@ -17,6 +17,8 @@
         <module>Spring6-AOP</module>
         <module>Spring6-Junit</module>
         <module>Spring6-JDBC-TX</module>
+        <module>Spring6-Resource</module>
+        <module>Spring6-i18n</module>
     </modules>
 
     <properties>

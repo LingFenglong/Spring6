@@ -19,6 +19,7 @@
         <module>Spring6-JDBC-TX</module>
         <module>Spring6-Resource</module>
         <module>Spring6-i18n</module>
+        <module>Spring6-Validation</module>
     </modules>
 
     <properties>

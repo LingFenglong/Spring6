@@ -13,6 +13,7 @@
         <module name="Spring6-AOP" />
         <module name="Spring6-Junit" />
         <module name="Spring6-Reflect" />
+        <module name="Spring6-Validation" />
         <module name="Spring6-IoC-Annotation" />
         <module name="Spring6-JDBC-TX" />
         <module name="Spring6-Resource" />

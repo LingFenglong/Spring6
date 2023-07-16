@@ -5,39 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28e412ad-d321-4087-9660-31bc80e7a3e6" name="Changes" comment="all">
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/xmltx/TestTx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/xmltx/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/xmltx/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/xmltx/dao/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/xmltx/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/xmltx/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/xmltx/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/java/com/lingfenglong/spring6/xmltx/service/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-JDBC-TX/src/main/resources/beans-xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-Resource/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/java/com/lingfenglong/spring6/di/ResourceBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/java/com/lingfenglong/spring6/di/TestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/java/com/lingfenglong/spring6/prefix/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/java/com/lingfenglong/spring6/resource/TestResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/java/com/lingfenglong/spring6/resource/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/java/com/lingfenglong/spring6/resourceloader/TestResourceLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/java/com/lingfenglong/spring6/resourceloaderaware/TestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/java/com/lingfenglong/spring6/resourceloaderaware/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/resources/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-Resource/src/main/resources/resourceFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-i18n/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-i18n/src/main/java/com/lingfenglong/javai18n/DemoI18n.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-i18n/src/main/java/com/lingfenglong/springi18n/DemoI18n.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-i18n/src/main/resources/i18n.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-i18n/src/main/resources/javai18n_en_GB.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-i18n/src/main/resources/javai18n_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-i18n/src/main/resources/springi18n_en_GB.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-i18n/src/main/resources/springi18n_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring6-i18n/src/test/java/com/lingfenglong/javai18n/DemoI18nTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/beanvalidator/JavaValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/beanvalidator/SpringValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/beanvalidator/TestUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/beanvalidator/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/beanvalidator/ValidationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/cannotblank/CannotBlank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/cannotblank/CannotBlankValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/cannotblank/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/cannotblank/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/cannotblank/TestMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/cannotblank/ValidService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/methodvalidationpostprocessor/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/methodvalidationpostprocessor/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/methodvalidationpostprocessor/TestUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/methodvalidationpostprocessor/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/validatorimpl/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/validatorimpl/PersonValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-Validation/src/main/java/com/lingfenglong/spring6/validatorimpl/TestPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-i18n/src/main/java/com/lingfenglong/springi18n/SpringI18nConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring6-i18n/src/main/java/com/lingfenglong/springi18n/DemoI18n.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring6-i18n/src/main/java/com/lingfenglong/springi18n/DemoI18n.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,11 +40,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="spring-beans.schema" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -93,7 +85,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "File.Encoding",
-    "spring.configuration.checksum": "fab94ec2d057036da6548b99e8116fe7",
+    "spring.configuration.checksum": "5c9bc48bb4a32c2dd3d30236c619062d",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -116,8 +108,8 @@
       <recent name="com.lingfenglong.spring6.xmlaop" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DemoI18n.demoI18n (1)">
-    <configuration name="DemoI18n.demoI18n (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestMessage.test01">
+    <configuration name="DemoI18n" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring6-i18n" />
       <extension name="coverage">
         <pattern>
@@ -127,71 +119,70 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.lingfenglong.springi18n" />
       <option name="MAIN_CLASS_NAME" value="com.lingfenglong.springi18n.DemoI18n" />
-      <option name="METHOD_NAME" value="demoI18n" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoI18n.demoI18n" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring6-i18n" />
+    <configuration name="TestMessage.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-Validation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lingfenglong.javai18n.*" />
+          <option name="PATTERN" value="com.lingfenglong.spring6.cannotblank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lingfenglong.javai18n" />
-      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.javai18n.DemoI18n" />
-      <option name="METHOD_NAME" value="demoI18n" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBean.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring6-Resource" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lingfenglong.spring6.di.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.di" />
-      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.di.TestBean" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDemo.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring6-Resource" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lingfenglong.spring6.resourceloaderaware.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.resourceloaderaware" />
-      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.resourceloaderaware.TestDemo" />
+      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.cannotblank" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.cannotblank.TestMessage" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestResourceLoader.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring6-Resource" />
+    <configuration name="TestPerson.testPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-Validation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lingfenglong.spring6.resourceloader.*" />
+          <option name="PATTERN" value="com.lingfenglong.spring6.validatorimpl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.resourceloader" />
-      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.resourceloader.TestResourceLoader" />
+      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.validatorimpl" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.validatorimpl.TestPerson" />
+      <option name="METHOD_NAME" value="testPerson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUser.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-Validation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lingfenglong.spring6.methodvalidationpostprocessor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.methodvalidationpostprocessor" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.methodvalidationpostprocessor.TestUser" />
       <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUser.testJavaValidation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-Validation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lingfenglong.spring6.beanvalidator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lingfenglong.spring6.beanvalidator" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.spring6.beanvalidator.TestUser" />
+      <option name="METHOD_NAME" value="testJavaValidation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DemoI18n.demoI18n (1)" />
-        <item itemvalue="JUnit.DemoI18n.demoI18n" />
-        <item itemvalue="JUnit.TestBean.test" />
-        <item itemvalue="JUnit.TestDemo.test01" />
-        <item itemvalue="JUnit.TestResourceLoader.test01" />
+        <item itemvalue="JUnit.TestMessage.test01" />
+        <item itemvalue="JUnit.TestUser.test01" />
+        <item itemvalue="JUnit.TestUser.testJavaValidation" />
+        <item itemvalue="JUnit.TestPerson.testPerson" />
+        <item itemvalue="JUnit.DemoI18n" />
       </list>
     </recent_temporary>
   </component>
@@ -239,6 +230,9 @@
       <workItem from="1689332541216" duration="1707000" />
       <workItem from="1689385221549" duration="4015000" />
       <workItem from="1689421239364" duration="12231000" />
+      <workItem from="1689436021437" duration="68000" />
+      <workItem from="1689468301191" duration="5902000" />
+      <workItem from="1689492021949" duration="5113000" />
     </task>
     <task id="LOCAL-00001" summary="all">
       <option name="closed" value="true" />
@@ -272,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689426422461</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="all">
+      <option name="closed" value="true" />
+      <created>1689436030127</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689436030127</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

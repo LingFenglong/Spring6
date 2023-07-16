@@ -19,7 +19,11 @@
     <file url="file://$PROJECT_DIR$/Spring6-Reflect/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring6-Resource/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring6-Resource/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring6-Validation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring6-Validation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring6-i18n/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring6-i18n/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -12,4 +12,9 @@ public class MyFactoryBean implements FactoryBean<User> {
     public Class<?> getObjectType() {
         return User.class;
     }
+
+    @Override
+    public boolean isSingleton() {
+        return false;
+    }
 }

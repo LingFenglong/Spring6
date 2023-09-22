@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Spring6-IoC-XML.iml" filepath="$PROJECT_DIR$/Spring6-IoC-XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Homework1-DI.iml" filepath="$PROJECT_DIR$/Spring-Homework1-DI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring6-EL.iml" filepath="$PROJECT_DIR$/Spring6-EL.iml" />
     </modules>
   </component>
 </project>

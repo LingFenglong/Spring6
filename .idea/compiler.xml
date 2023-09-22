@@ -8,16 +8,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring6-i18n" />
-        <module name="My-Spring" />
-        <module name="Spring-First" />
         <module name="Spring6-AOP" />
         <module name="Spring6-Junit" />
+        <module name="Spring6-EL" />
         <module name="Spring6-Reflect" />
         <module name="Spring6-Validation" />
+        <module name="Spring-Homework1-DI2" />
+        <module name="Spring-Homework1-DI" />
+        <module name="Spring6-IoC-XML" />
+        <module name="My-Spring" />
+        <module name="Spring-First" />
         <module name="Spring6-IoC-Annotation" />
+        <module name="Spring6-SC" />
         <module name="Spring6-JDBC-TX" />
         <module name="Spring6-Resource" />
-        <module name="Spring6-IoC-XML" />
       </profile>
     </annotationProcessing>
   </component>

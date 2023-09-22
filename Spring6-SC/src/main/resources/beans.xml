@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+    <bean name="entity1" class="com.lingfenglong.sc.Entity" scope="prototype">
+        <property name="map">
+            <map>
+                <entry key="aaa1" value="ccc" />
+                <entry key="abc2" value="ccc" />
+                <entry key="aba3" value="ccc" />
+                <entry key="abd4" value="ccc" />
+            </map>
+        </property>
+    </bean>
+
+    <bean name="entity2" class="com.lingfenglong.sc.Entity" scope="prototype" parent="entity1">
+        <property name="map">
+            <map merge="true">
+                <entry key="aaa" value="bbb" />
+                <entry key="abc" value="bbb" />
+                <entry key="aba" value="bbb" />
+                <entry key="abd" value="bbb" />
+            </map>
+        </property>
+    </bean>
+
+    <context:property-placeholder location="jdbc.properties"/>
+    <bean name="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="driverClassName" value="${jdbc.driver}"/>
+    </bean>
+</beans>

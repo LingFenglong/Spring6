@@ -1,5 +1,6 @@
 package com.lingfenglong.iocxml.di;
 
+
 public class Book {
     private String name;
     private String author;

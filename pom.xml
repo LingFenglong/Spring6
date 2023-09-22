@@ -20,11 +20,15 @@
         <module>Spring6-Resource</module>
         <module>Spring6-i18n</module>
         <module>Spring6-Validation</module>
+        <module>Spring6-SC</module>
+        <module>Spring-Homework1-DI</module>
+        <module>Spring-Homework1-DI2</module>
+        <module>Spring6-EL</module>
     </modules>
 
     <properties>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -49,18 +53,6 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.19.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-slf4j2-impl</artifactId>
-            <version>2.19.0</version>
         </dependency>
 
         <dependency>

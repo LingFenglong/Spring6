@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$/My-Spring/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/My-Spring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-First/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-First/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Homework1-DI/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Homework1-DI/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Homework1-DI2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Homework1-DI2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring6-AOP/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring6-AOP/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring6-EL/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring6-EL/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring6-IoC-Annotation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring6-IoC-XML/src/main/java" charset="UTF-8" />
@@ -19,6 +25,10 @@
     <file url="file://$PROJECT_DIR$/Spring6-Reflect/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring6-Resource/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring6-Resource/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring6-SC/Spring6-EL/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring6-SC/Spring6-EL/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring6-SC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring6-SC/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring6-Validation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring6-Validation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring6-i18n/src/main/java" charset="UTF-8" />

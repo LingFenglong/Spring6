@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- School Bean -->
+    <bean name="school" class="com.software.entity.School">
+        <property name="name" value="HEBNU"/>
+        <property name="location" value="SJZ"/>
+        <property name="opening" value="true"/>
+        <property name="phoneNumber" value="10086"/>
+    </bean>
+
+    <!-- Library Bean -->
+    <bean name="library" class="com.software.entity.Library">
+        <property name="bookNumber" value="99999999999"/>
+
+        <property name="startTime">
+            <bean class="java.time.LocalTime" factory-method="of">
+                <constructor-arg name="hour" value="7"/>
+                <constructor-arg name="minute" value="30"/>
+            </bean>
+        </property>
+
+        <property name="endTime">
+            <bean class="java.time.LocalTime" factory-method="of">
+                <constructor-arg name="hour" value="20"/>
+                <constructor-arg name="minute" value="30"/>
+            </bean>
+        </property>
+
+        <property name="school" ref="school"/>
+    </bean>
+</beans>
